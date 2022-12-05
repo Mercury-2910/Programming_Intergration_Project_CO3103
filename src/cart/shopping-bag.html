@@ -99,7 +99,7 @@
                     <td><strong>2.550.000VNĐ</strong></td>
                 </tr>
             </table>
-            <button class="normal">Đặt hàng ngay</button>
+            <button class="normal" id="gotoPayment">Đặt hàng ngay</button>
         </div>
     </section>
 
@@ -148,6 +148,13 @@
             <p>2022 | WSC All Rights</p>
         </div>
     </footer>
+
+    <script>
+        var button = document.getElementById("gotoPayment");
+        button.onclick = function(){
+            location.assign("../DA-CNPM/test/thanhtoan.html");
+        };
+    </script>
 
 </body>
 </html>
