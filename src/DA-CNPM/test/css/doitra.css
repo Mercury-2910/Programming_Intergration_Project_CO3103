@@ -9,13 +9,13 @@ body {
     color: #333333;
     height: 500px;
    
-    
   }
 
   #header {
+    top:0px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between; 
     padding: 10px 30px;
     background: #E3E6F3;
     box-shadow: 0 5px 15px rgba(0,0,0,0.06);
@@ -27,6 +27,7 @@ body {
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  
 }
 
 #navbar li {
@@ -59,116 +60,70 @@ body {
   bottom: -4px;
   left: 20px;
 }
-.others {
-    flex: 1;
-    display: flex;
-}
-.others> li {
-    padding: 0 12px;
-}
-.others > li:first-child {
-    position: relative;
-}
-.others > li:first-child input {
-    width: 100%; 
-    border: none;
-    border-bottom: 1ps solid #333;  
-}
-.others > li:first-child i {
-    position: absolute ;
-    right: 10px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* body */
+div.main-policy.main-complaints.main-rules {
 
-
-div.top {
-    width: 100%;
-    margin-top: 80px;
-    margin-right: 80px;
-    margin-left: 80px;  
-    margin-bottom: 30px;  
-    
-}
-
-div.mid {
-    line-height: 40px;
-    margin-top: 50px;
-    margin-right: 120px;
-    margin-left: 120px; 
-    font-size: 15px;
+    margin: 100px;
 
 }
 
 
-.flex-container {
+.d-flex{
     display: flex;
-    align-items: stretch;
-    background-color: #f1f1f1;
-  }
-  
-  .flex-container > div {
-    margin-top: 50px;
-    margin-right: 60px;
-    margin-left: 40px;
-    margin-bottom: 50px;
+    flex-wrap:wrap;
+}
+.companion{
+    align-items: center;
+    margin-bottom: 64px;
+}
+div.flex{
+    display: flex!important;
+    flex-direction: row;
+}
+.d-flex{
+    display: flex!important;
+}
+.left-companion{
+    max-width: 760px;
+    width: 100%;
+}
+.right-companion{
+    width: calc(100%-760px);
+    padding-left: 170px;
+}
+.right-companion p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #6C6D70;
+    max-width: 670px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.right-companion h3 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 32px;
     text-align: justify;
-    line-height: 40px;
-    
-  }
+    color: #221F20;
+    margin-bottom: 24px;
+    display: block;
+}
+.companion-img img {
+    display: block;
+}
+div.companion.d-flex.display-pc-block{
+    margin:60px;
+}
+img {
+    border: none;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  footer{
+ /* -----------------   footer------------------- */
+footer{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -232,7 +187,3 @@ div.mid {
     width: 100%;
     text-align: center;
   }
-
-.section-p1 {
-    padding: 20px 20px;
-}

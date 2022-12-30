@@ -17,7 +17,8 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 10px 30px;
-    
+    background: #E3E6F3;
+    position: sticky;
     box-shadow: 0 5px 15px rgba(0,0,0,0.06);
     height: 40px;
 }
@@ -155,13 +156,8 @@ footer{
     align-items: flex-start;
     margin-bottom: 20px;
   }
-  footer .logo{
-    margin-bottom: 30px;
-    height:30px ;
-    width:40px ;
-  }
+  
   .logo{
-    margin-bottom: 30px;
     height:30px ;
     width:40px ;
   }

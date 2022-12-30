@@ -16,3 +16,7 @@ file.addEventListener('change', function(){
 
 
 });
+const logout = document.getElementById('logout');
+logout.onclick = function(){
+    location.assign("../Login/index.html");
+};

@@ -209,6 +209,7 @@ body {
     background-color: #5cb85c;
     color: #eee;
     padding: 8px 20px;
+    cursor: pointer;
   }
   
   /* Profile Content */
@@ -229,7 +230,16 @@ body {
   }
 
 
+  #logout{
+    border: none;
+    background-color: #d1231a;
+    color: #eee;
+    padding: 5px 14px;
+  }
 
+
+  
+/* footer */
   footer{
     display: flex;
     flex-wrap: wrap;
