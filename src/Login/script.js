@@ -11,6 +11,6 @@ signInButton.addEventListener('click', () => {
 	container.classList.remove("right-panel-active");
 });
 
-document.onkeydown = function(){
+document.ondblclick = function(){
 	location.assign("../../index.html");
 };
